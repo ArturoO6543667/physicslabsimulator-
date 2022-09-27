@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | lab</title>
+    <title>Simulador de Física</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -13,20 +13,25 @@
       <style type="text/css">
         .boton_personalizado{
           text-decoration: none;
-          padding: 5px;
+          padding: 6px;
           font-weight: 600;
           font-size: 15px;
           color: #ffffff;
           background-color: #1883ba;
-          border-radius: 6px;
           border: 2px solid #0016b0;
         }
+        .space {
+         margin-bottom: 5px;
+        }
       </style>
-    
-    <button class="boton_personalizado" onClick="window.location.href=window.location.href">Reiniciar pagina</button>
-    <button class="boton_personalizado" target="_blank"
-    onclick=" window.open('https://drive.google.com/file/d/1Aoz6e1566UrfxVbNKW54zS81dSMRo9GZ/view?usp=sharing','_blank')">Descargar manual</button>
-    
+
+    <div class="space"> 
+      <button class="boton_personalizado" onClick="window.location.href=window.location.href">Reiniciar pagina</button>
+      <button class="boton_personalizado" target="_blank"
+      onclick=" window.open('https://drive.google.com/file/d/1Aoz6e1566UrfxVbNKW54zS81dSMRo9GZ/view?usp=sharing','_blank')">Descargar manual</button>
+      
+    </div>
+   
     <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
